@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí — AleRam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkle-overlay" aria-hidden="true">
+  <span class="sp p1">✦</span><span class="sp p2 sm purple">✧</span>
+  <span class="sp p3 lg">✦</span><span class="sp p5 purple">✦</span>
+  <span class="sp p7 sm">✧</span><span class="sp p9 lg purple">✦</span>
+</div>
+
+<div id="desktop">
+
+  <div class="win" id="win-nav" style="left:10px; top:10px; width:175px;">
+    <div class="win-titlebar" data-win="win-nav">
+      <span class="win-icon">◈</span><span class="win-title">navegar.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:0;">
+      <ul class="nav-win-list">
+        <li><a href="index.html">🏠 inicio</a></li>
+        <li><a href="sobre-mi.html" class="active">👤 sobre mí</a></li>
+        <li><a href="musica.html">🎵 música</a></li>
+        <li><a href="libros.html">📖 libros</a></li>
+        <li><a href="videos.html">▶ videos</a></li>
+        <li><a href="personajes.html">✦ personajes</a></li>
+        <li><a href="meditaciones.html">◇ meditaciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="win" id="win-about" style="left:196px; top:10px; width:360px;">
+    <div class="win-titlebar" data-win="win-about">
+      <span class="win-icon">👤</span><span class="win-title">sobre-mi.txt</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-heading">quién soy</div>
+      <div style="float:right; margin:0 0 8px 10px; border:1px solid #2a1438; width:90px; height:110px; overflow:hidden;">
+        <img src="assets/foto.jpg" alt="AleRam"
+          style="width:100%; height:100%; object-fit:cover; filter:sepia(0.2);"
+          onerror="this.style.display='none'; this.parentElement.style.background='#140c20';">
+      </div>
+      <p class="welcome-text">hola. soy <strong style="color:#d0a8f8;">AleRam</strong>. estudio ingeniería en gestión empresarial y programo cosas por pura diversión.</p>
+      <p class="welcome-text" style="margin-top:5px;">me gusta caminar, ir al gimnasio, leer y conversar. tengo debilidad por el realismo mágico y los personajes que guardan cosas complicadas adentro.</p>
+      <hr class="win-divider">
+      <div class="win-section-label">⸸ datos rápidos</div>
+      <div class="currently-block">
+        <span class="currently-lbl">estudia</span>
+        <span class="currently-val" style="font-size:11px;">Ing. Gestión Empresarial</span>
+      </div>
+      <div class="currently-block">
+        <span class="currently-lbl">leyendo</span>
+        <span class="currently-val" style="font-size:11px;">El Libro del Desasosiego</span>
+        <span class="currently-sub">Fernando Pessoa</span>
+      </div>
+      <div class="currently-block">
+        <span class="currently-lbl">escuchando</span>
+        <span class="currently-val" style="font-size:11px;">Cigarettes After Sex</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="win" id="win-likes" style="left:568px; top:10px; width:225px;">
+    <div class="win-titlebar" data-win="win-likes">
+      <span class="win-icon">♥</span><span class="win-title">likes.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-section-label">⸸ me gusta</div>
+      <div style="display:flex; flex-wrap:wrap; gap:4px; margin-top:5px;">
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">caminar</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">gimnasio</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">leer</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">conversar</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">programar</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">realismo mágico</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">anime</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">fútbol</span>
+        <span style="background:#100820; border:1px solid #2a1438; padding:3px 6px; font-size:9px; color:#9070b8;">filosofía</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="taskbar">
+  <button class="tb-btn" data-win="win-nav">navegar</button>
+  <button class="tb-btn is-active" data-win="win-about">sobre mí</button>
+  <button class="tb-btn" data-win="win-likes">likes</button>
+  <div class="tb-clock" id="tbClock">--:--</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

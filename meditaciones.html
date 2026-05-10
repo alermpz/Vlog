@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meditaciones — AleRam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkle-overlay" aria-hidden="true">
+  <span class="sp p1 sm">✧</span><span class="sp p4 lg purple">✦</span>
+  <span class="sp p7 sm">⋆</span><span class="sp p10 purple">✦</span>
+</div>
+
+<div id="desktop">
+
+  <div class="win" id="win-nav" style="left:10px; top:10px; width:175px;">
+    <div class="win-titlebar" data-win="win-nav">
+      <span class="win-icon">◈</span><span class="win-title">navegar.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:0;">
+      <ul class="nav-win-list">
+        <li><a href="index.html">🏠 inicio</a></li>
+        <li><a href="sobre-mi.html">👤 sobre mí</a></li>
+        <li><a href="musica.html">🎵 música</a></li>
+        <li><a href="libros.html">📖 libros</a></li>
+        <li><a href="videos.html">▶ videos</a></li>
+        <li><a href="personajes.html">✦ personajes</a></li>
+        <li><a href="meditaciones.html" class="active">◇ meditaciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="win" id="win-entries" style="left:196px; top:10px; width:420px;">
+    <div class="win-titlebar" data-win="win-entries">
+      <span class="win-icon">◇</span><span class="win-title">meditaciones.txt</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-heading">meditaciones diarias</div>
+      <p style="font-size:10px; color:#4a3060; font-family:'Press Start 2P',monospace; line-height:1.8; margin-bottom:10px;">pensamientos sueltos. sin formato fijo.</p>
+      <div class="book-entry">
+        <div class="book-author" style="color:#7a5a90;">10 · 05 · 2026</div>
+        <div class="book-title" style="margin-bottom:5px; font-size:13px;">Primera entrada.</div>
+        <p class="welcome-text" style="font-size:12px;">
+          el sitio existe. eso es algo. hay algo satisfactorio en construir un espacio propio en internet, aunque nadie lo vea. es tuyo de todas formas.
+        </p>
+        <p class="welcome-text" style="font-size:12px; margin-top:4px;">
+          pessoa decía que el desasosiego era su forma de estar en el mundo. quizás este blog es la mía.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="win" id="win-archive" style="left:628px; top:10px; width:175px;">
+    <div class="win-titlebar" data-win="win-archive">
+      <span class="win-icon">🗂</span><span class="win-title">archivo.txt</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-section-label">⸸ archivo</div>
+      <ul class="nav-win-list" style="margin-top:4px;">
+        <li><a href="#" style="color:#8060a8;">Mayo 2026 (1)</a></li>
+      </ul>
+      <hr class="win-divider">
+      <p style="font-size:9px; color:#4a3060; font-family:'Press Start 2P',monospace; line-height:1.8;">
+        pensamientos sueltos.<br>sin estructura<br>obligatoria.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="taskbar">
+  <button class="tb-btn" data-win="win-nav">navegar</button>
+  <button class="tb-btn is-active" data-win="win-entries">meditaciones</button>
+  <button class="tb-btn" data-win="win-archive">archivo</button>
+  <div class="tb-clock" id="tbClock">--:--</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
