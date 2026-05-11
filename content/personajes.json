@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "nombre": "Naoya Zenin",
+      "serie": "Jujutsu Kaisen",
+      "descripcion": "Un hechicero extremadamente poderoso y arrogante del clan Zenin.",
+      "imagen": "/assets/Naoya Zenin.jpg",
+      "destacado": true
+    }
+  ]
+}
