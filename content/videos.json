@@ -1,19 +1,11 @@
 {
   "items": [
     {
-      "title": "La Cobra",
-      "categoria": "youtube",
-      "subtitulo": "fútbol & debate",
+      "title": "Hunter x Hunter",
+      "categoria": "anime",
+      "subtitulo": "Mi fuking anime favorito",
       "calificacion": 5,
-      "resena": "análisis y debates. habla de fútbol como si fuera filosofía de vida.",
-      "enlace": "https://www.youtube.com/@LaCobraOficial"
-    },
-    {
-      "title": "El Club de la Pelea",
-      "categoria": "pelicula",
-      "subtitulo": "película",
-      "calificacion": 5,
-      "resena": "un clásico. te hace cuestionar el consumismo y la rutina diaria.",
+      "resena": "Podria repetir el opening 1000 veces y lo amaría como la primera vez, cada arco es increible, y si, mi arco favorito es Green island Y QUEEEE",
       "enlace": ""
     }
   ]
