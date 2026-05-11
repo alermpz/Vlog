@@ -39,6 +39,38 @@
       "review": "Cine, le mandare las mismas cartas a mi futura esposa",
       "cover": "/assets/clara.jpg",
       "is_top_5": false
+    },
+    {
+      "title": "El arte de amar",
+      "author": "Erich Fromm",
+      "rating": 4,
+      "review": "\"El amor es la preocupación activa por la salud y bienestar del otro\"",
+      "cover": "/assets/el arte de amar.jpg",
+      "is_top_5": true
+    },
+    {
+      "title": "El libro de arena",
+      "author": "Borges",
+      "rating": 4,
+      "review": "Increíble como ese incel puede escribir también, quede fascinado con cada cuento",
+      "cover": "/assets/borges.jpg",
+      "is_top_5": false
+    },
+    {
+      "title": "El manifiesto comunista",
+      "author": "Marx y engels",
+      "rating": 4,
+      "review": "Bueno, una obra que te introduce al pensamiento de marx, diría que necesario para cada persona que piense (minimamente)",
+      "cover": "/assets/comunista.jpg",
+      "is_top_5": false
+    },
+    {
+      "title": "Cartas a chepita",
+      "author": "Jaime sabines",
+      "rating": 5,
+      "review": "Este bro invento el amor, cada carta es increíble, Jaime es mi poeta favorito,",
+      "cover": "/assets/chepita.jpg",
+      "is_top_5": true
     }
   ]
 }
