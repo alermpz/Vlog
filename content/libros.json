@@ -95,6 +95,14 @@
       "review": "Me gusto, es digerible, además de que da un giro al final que no me esperaba, creo que vivir una vida para los otros no vale la pena",
       "cover": "/assets/la caida.jpg",
       "is_top_5": false
+    },
+    {
+      "title": "Space Invaders",
+      "author": "Nona Fernadez",
+      "rating": 4,
+      "review": "Retrata muy bien la dictadura chilena desde la perspectiva de los niños y como viven su realidad día a día",
+      "cover": "/assets/nona.jpg",
+      "is_top_5": false
     }
   ]
 }
