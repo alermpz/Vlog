@@ -71,6 +71,30 @@
       "review": "Este bro invento el amor, cada carta es increíble, Jaime es mi poeta favorito,",
       "cover": "/assets/chepita.jpg",
       "is_top_5": true
+    },
+    {
+      "title": "Rebelión en la granja",
+      "author": "George Orwell",
+      "rating": 4,
+      "review": "Increíble, me partió el corazón ver morir a boxer, retrata muy bien la realidad del proletario promedio",
+      "cover": "/assets/Rebelion en la granja.jpg",
+      "is_top_5": false
+    },
+    {
+      "title": "Noches Blancas",
+      "author": "Fiodor Dostoiesvski",
+      "rating": 5,
+      "review": "Increíble, me hizo sentir demasiado en pocas páginas, nastenka está en su derecho de amar a quien quiera y dejo clara sus intenciones desde el inicio, el problema era el, y como no culparlo, cualquiera le gustaría sentirse amada",
+      "cover": "/assets/noches blancas.jpg",
+      "is_top_5": false
+    },
+    {
+      "title": "La caída",
+      "author": "Albert Camus",
+      "rating": 4,
+      "review": "Me gusto, es digerible, además de que da un giro al final que no me esperaba, creo que vivir una vida para los otros no vale la pena",
+      "cover": "/assets/la caida.jpg",
+      "is_top_5": false
     }
   ]
 }
