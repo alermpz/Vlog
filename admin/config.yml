@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: alermpz/MiVlog  # Update this if the repo name is different
+  repo: alermpz/Vlog  # Update this if the repo name is different
   branch: main # Branch to update
   
 media_folder: "assets" # Media files will be stored in the assets/ folder
