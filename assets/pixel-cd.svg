@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="90" height="90">
+  <path fill="#ddd" d="M5,1 h6 v1 h2 v1 h1 v2 h1 v6 h-1 v2 h-1 v1 h-2 v1 h-6 v-1 h-2 v-1 h-1 v-2 h-1 v-6 h1 v-2 h1 v-1 h2 z" />
+  <path fill="#aaa" d="M6,2 h4 v1 h2 v1 h1 v1 h-1 v-1 h-2 v-1 h-4 v1 h-2 v1 h-1 v-1 h1 v-1 h2 z" />
+  <path fill="#fff" d="M5,3 h2 v1 h-2 z M9,3 h2 v1 h-2 z" />
+  <path fill="#555" d="M7,6 h2 v1 h1 v2 h-1 v1 h-2 v-1 h-1 v-2 h1 z" />
+  <path fill="#fff" d="M7,7 h2 v2 h-2 z" />
+  <path fill="#0ff" d="M3,8 h2 v1 h-1 v1 h-1 z" />
+  <path fill="#f0f" d="M11,8 h2 v1 h-1 v1 h-1 z" />
+  <path fill="#ff0" d="M5,11 h2 v1 h-2 z M9,11 h2 v1 h-2 z" />
+</svg>

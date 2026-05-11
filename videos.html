@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos — AleRam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkle-overlay" aria-hidden="true">
+  <span class="sp p2 sm">✧</span><span class="sp p5 lg purple">★</span>
+  <span class="sp p6 sm">⋆</span><span class="sp p9 purple">★</span>
+</div>
+
+<div id="desktop">
+
+  <div class="win" id="win-nav" style="left:10px; top:10px; width:175px;">
+    <div class="win-titlebar" data-win="win-nav">
+      <span class="win-icon">::</span><span class="win-title">navegar.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:0;">
+      <ul class="nav-win-list">
+        <li><a href="index.html"><img src="assets/icon-home.png" class="nav-icon" alt=""> inicio</a></li>
+        <li><a href="sobre-mi.html"><img src="assets/icon-me.png" class="nav-icon" alt=""> about me</a></li>
+        <li><a href="musica.html"><img src="assets/icon-music.png" class="nav-icon" alt=""> música</a></li>
+        <li><a href="libros.html"><img src="assets/icon-books.png" class="nav-icon" alt=""> libros</a></li>
+        <li><a href="videos.html" class="active"><img src="assets/icon-videos.png" class="nav-icon" alt=""> videos</a></li>
+        <li><a href="personajes.html"><img src="assets/icon-chars.png" class="nav-icon" alt=""> personajes</a></li>
+        <li><a href="meditaciones.html"><img src="assets/icon-medit.png" class="nav-icon" alt=""> meditaciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="win" id="win-youtube" style="left:196px; top:10px; width:260px;">
+    <div class="win-titlebar" data-win="win-youtube">
+      <span class="win-icon">📺</span><span class="win-title">youtube_channels.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-heading">canales favoritos</div>
+      <div id="cms-videos-youtube">
+        <!-- JS will inject youtube entries here -->
+      </div>
+    </div>
+  </div>
+
+  <div class="win" id="win-movies" style="left:466px; top:10px; width:260px;">
+    <div class="win-titlebar" data-win="win-movies">
+      <span class="win-icon">🎬</span><span class="win-title">movies_series.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-heading">películas y series</div>
+      <div id="cms-videos-movies">
+        <!-- JS will inject movie/series entries here -->
+      </div>
+    </div>
+  </div>
+
+  <div class="win" id="win-recommended" style="left:736px; top:10px; width:300px;">
+    <div class="win-titlebar" data-win="win-recommended">
+      <span class="win-icon">📌</span><span class="win-title">recomendados.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:10px;">
+      <div class="win-heading" style="margin-bottom:8px;">videos recomendados</div>
+      
+      <div style="margin-bottom:12px; border:1px solid rgba(255,255,255,0.8); background:rgba(255,255,255,0.6); padding:4px;">
+        <iframe width="100%" height="150" src="https://www.youtube.com/embed/nrs22bM1x0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p style="font-size:9px; color:#0a4a7a; text-align:center; margin-top:4px; font-family:'Tahoma', 'Verdana', sans-serif;">Cigarettes After Sex - Apocalypse</p>
+      </div>
+
+      <div style="border:1px solid rgba(255,255,255,0.8); background:rgba(255,255,255,0.6); padding:4px;">
+        <iframe width="100%" height="150" src="https://www.youtube.com/embed/Oextk-If8HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p style="font-size:9px; color:#0a4a7a; text-align:center; margin-top:4px; font-family:'Tahoma', 'Verdana', sans-serif;">Jujutsu Kaisen OP</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="taskbar">
+  <button class="tb-btn" data-win="win-nav">navegar</button>
+  <button class="tb-btn is-active" data-win="win-youtube">canales</button>
+  <button class="tb-btn is-active" data-win="win-movies">películas</button>
+  <button class="tb-btn is-active" data-win="win-recommended">recomendados</button>
+  <div class="tb-clock" id="tbClock">--:--</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

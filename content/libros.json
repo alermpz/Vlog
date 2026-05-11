@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "Pedro Páramo",
+      "author": "Juan Rulfo",
+      "rating": 5,
+      "review": "un hombre va a buscar a su padre y llega a un pueblo de muertos. rulfo construye algo que no debería funcionar pero funciona perfectamente.",
+      "cover": "",
+      "is_top_5": true
+    },
+    {
+      "title": "El Libro del Desasosiego",
+      "author": "Fernando Pessoa",
+      "rating": 5,
+      "review": "un diario de un hombre que observa todo y no pertenece a nada. para leer de a poco, sin prisa.",
+      "cover": "",
+      "is_top_5": true
+    },
+    {
+      "title": "El Llano en Llamas",
+      "author": "Juan Rulfo",
+      "rating": 4,
+      "review": "cuentos cortos y brutales. rulfo en estado puro. la violencia y la ternura conviviendo sin problema.",
+      "cover": "",
+      "is_top_5": false
+    },
+    {
+      "title": "Cuentos Reunidos",
+      "author": "Amparo Dávila",
+      "rating": 4,
+      "review": "terror mexicano que pone el horror en lo doméstico. inquietante con elegancia.",
+      "cover": "",
+      "is_top_5": false
+    },
+    {
+      "title": "Cartas a Clara",
+      "author": "Juan Rulfo",
+      "rating": 4,
+      "review": "hay algo en el género epistolar que te hace sentir que estás leyendo algo que no debías.",
+      "cover": "",
+      "is_top_5": false
+    }
+  ]
+}

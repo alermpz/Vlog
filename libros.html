@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libros — AleRam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkle-overlay" aria-hidden="true">
+  <span class="sp p1">★</span><span class="sp p4 sm purple">⋆</span>
+  <span class="sp p6 lg">★</span><span class="sp p8 sm purple">✧</span><span class="sp p10">★</span>
+</div>
+
+<div id="desktop">
+
+  <!-- NAVEGACIÓN -->
+  <div class="win" id="win-nav" style="left:10px; top:10px; width:175px;">
+    <div class="win-titlebar" data-win="win-nav">
+      <span class="win-icon">::</span><span class="win-title">navegar.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:0;">
+      <ul class="nav-win-list">
+        <li><a href="index.html"><img src="assets/icon-home.png" class="nav-icon" alt=""> inicio</a></li>
+        <li><a href="sobre-mi.html"><img src="assets/icon-me.png" class="nav-icon" alt=""> about me</a></li>
+        <li><a href="musica.html"><img src="assets/icon-music.png" class="nav-icon" alt=""> música</a></li>
+        <li><a href="libros.html" class="active"><img src="assets/icon-books.png" class="nav-icon" alt=""> libros</a></li>
+        <li><a href="videos.html"><img src="assets/icon-videos.png" class="nav-icon" alt=""> videos</a></li>
+        <li><a href="personajes.html"><img src="assets/icon-chars.png" class="nav-icon" alt=""> personajes</a></li>
+        <li><a href="meditaciones.html"><img src="assets/icon-medit.png" class="nav-icon" alt=""> meditaciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TOP 5 LIBROS -->
+  <div class="win" id="win-top5" style="left:196px; top:10px; width:355px;">
+    <div class="win-titlebar" data-win="win-top5">
+      <span class="win-icon">★</span><span class="win-title">top_5_libros.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-heading">Mis Top 5 Favoritos</div>
+      <div id="cms-top5-list">
+        <p style="font-size: 11px; color: #666; font-style: italic;">Cargando Top 5...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TODOS LOS LIBROS (RESEÑAS) -->
+  <div class="win" id="win-library" style="left:196px; top:280px; width:566px;">
+    <div class="win-titlebar" data-win="win-library">
+      <span class="win-icon">[books]</span><span class="win-title">biblioteca_completa.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="max-height: 400px; overflow-y: auto;">
+      <div class="win-heading">Registro de Lectura</div>
+      <div id="cms-allbooks-list" style="display: flex; flex-direction: column; gap: 15px;">
+        <p style="font-size: 11px; color: #666; font-style: italic;">Cargando biblioteca...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ESTADO ACTUAL (LEYENDO) -->
+  <div class="win" id="win-genres" style="left:562px; top:10px; width:200px;">
+    <div class="win-titlebar" data-win="win-genres">
+      <span class="win-icon">[_]</span><span class="win-title">status.txt</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="currently-block">
+        <span class="currently-lbl">leyendo ahora</span>
+        <span class="currently-val" id="cms-libro-status" style="font-size:11px;">Cargando...</span>
+        <span class="currently-sub" id="cms-autor-status">...</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="taskbar">
+  <button class="tb-btn" data-win="win-nav">navegar</button>
+  <button class="tb-btn is-active" data-win="win-top5">top 5</button>
+  <button class="tb-btn" data-win="win-library">biblioteca completa</button>
+  <button class="tb-btn" data-win="win-genres">status</button>
+  <div class="tb-clock" id="tbClock">--:--</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

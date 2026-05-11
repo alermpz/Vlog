@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Música — AleRam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkle-overlay" aria-hidden="true">
+  <span class="sp p1">★</span><span class="sp p3 lg purple">★</span>
+  <span class="sp p5 sm">✧</span><span class="sp p7 purple">★</span><span class="sp p9 sm">⋆</span>
+</div>
+
+<div id="desktop">
+
+  <div class="win" id="win-nav" style="left:10px; top:10px; width:175px;">
+    <div class="win-titlebar" data-win="win-nav">
+      <span class="win-icon">::</span><span class="win-title">navegar.exe</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:0;">
+      <ul class="nav-win-list">
+        <li><a href="index.html"><img src="assets/icon-home.png" class="nav-icon" alt=""> inicio</a></li>
+        <li><a href="sobre-mi.html"><img src="assets/icon-me.png" class="nav-icon" alt=""> about me</a></li>
+        <li><a href="musica.html" class="active"><img src="assets/icon-music.png" class="nav-icon" alt=""> música</a></li>
+        <li><a href="libros.html"><img src="assets/icon-books.png" class="nav-icon" alt=""> libros</a></li>
+        <li><a href="videos.html"><img src="assets/icon-videos.png" class="nav-icon" alt=""> videos</a></li>
+        <li><a href="personajes.html"><img src="assets/icon-chars.png" class="nav-icon" alt=""> personajes</a></li>
+        <li><a href="meditaciones.html"><img src="assets/icon-medit.png" class="nav-icon" alt=""> meditaciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="win" id="win-spotify" style="left:196px; top:10px; width:300px;">
+    <div class="win-titlebar" data-win="win-spotify">
+      <span class="win-icon">♪</span><span class="win-title">spotify.exe — cigarettes after sex</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body" style="padding:0;">
+      <iframe
+        src="https://open.spotify.com/embed/artist/1QAJqy2dA3ihHBFIHRphZj?utm_source=generator&theme=0"
+        width="100%" height="352" frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy" title="Cigarettes After Sex" style="display:block; border:none;">
+      </iframe>
+      <div style="padding:6px 8px;">
+        <p class="welcome-text">dreampop que suena como una película que no puedes recordar bien. cada canción es una atmósfera completa.</p>
+        <a href="https://open.spotify.com/user/31n7p233zyw22gxv5bh6ibmineuq" target="_blank" rel="noopener"
+           style="font-family:'Tahoma', 'Verdana', sans-serif; font-size:5px; letter-spacing:0.06em;">mi perfil ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="win" id="win-playlists" style="left:508px; top:10px; width:240px;">
+    <div class="win-titlebar" data-win="win-playlists">
+      <span class="win-icon">[+]</span><span class="win-title">playlists.txt</span>
+      <div class="win-controls">
+        <button class="win-btn wbtn-min">─</button><button class="win-btn wbtn-close">✕</button>
+      </div>
+    </div>
+    <div class="win-body">
+      <div class="win-heading">mis playlists</div>
+      <p class="welcome-text" style="font-size:11px; margin-bottom:8px;">
+        para agregar tus playlists aquí, comparte los links de spotify (<code style="font-size:9px; color:#005599;">open.spotify.com/playlist/...</code>) y los incrustamos.
+      </p>
+      <hr class="win-divider">
+      <div class="win-section-label">* géneros que escucho</div>
+      <div style="margin-top:5px; display:flex; flex-direction:column; gap:3px;">
+        <span style="font-size:11px; color:#005599; font-style:italic;">Dreampop / Ambient</span>
+        <span style="font-size:11px; color:#005599; font-style:italic;">Slowcore</span>
+        <span style="font-size:11px; color:#005599; font-style:italic;">Shoegaze</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="taskbar">
+  <button class="tb-btn" data-win="win-nav">navegar</button>
+  <button class="tb-btn is-active" data-win="win-spotify">spotify</button>
+  <button class="tb-btn" data-win="win-playlists">playlists</button>
+  <div class="tb-clock" id="tbClock">--:--</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
