@@ -478,3 +478,50 @@ async function loadCMSData() {
     console.error("Error loading CMS data:", err);
   }
 }
+
+// Background Ambient Music Setup
+document.addEventListener('DOMContentLoaded', () => {
+    // Check if we are not in 'musica.html' to avoid overlapping songs?
+    // User said "una cancion se reproduzca de fondo, la cancion seria otra aparte de la que se encuentra ahi".
+    // "ahi" probably refers to the musica section or the existing song.
+    
+    const bgMusic = document.createElement('audio');
+    // NOTE: Carga la canción desde assets/ambient.mp3.
+    bgMusic.src = 'assets/ambient.mp3'; 
+    bgMusic.loop = true;
+    bgMusic.volume = 0.15; // Volumen de ambiente muy bajo
+    
+    document.body.appendChild(bgMusic);
+
+    const musicBtn = document.createElement('button');
+    musicBtn.id = 'bg-music-toggle';
+    musicBtn.innerHTML = '?? Ambiente: Off';
+    document.body.appendChild(musicBtn);
+
+    let isPlaying = false;
+    
+    // Try to auto-play if browser allows
+    const playPromise = bgMusic.play();
+    if (playPromise !== undefined) {
+        playPromise.then(() => {
+            // Autoplay started!
+            musicBtn.innerHTML = '?? Ambiente: On';
+            isPlaying = true;
+        }).catch(error => {
+            // Autoplay blocked. User needs to click.
+            console.log("Autoplay blocked. User must start playback manually.");
+        });
+    }
+
+    musicBtn.addEventListener('click', () => {
+        if (isPlaying) {
+            bgMusic.pause();
+            musicBtn.innerHTML = '?? Ambiente: Off';
+            isPlaying = false;
+        } else {
+            bgMusic.play();
+            musicBtn.innerHTML = '?? Ambiente: On';
+            isPlaying = true;
+        }
+    });
+});
