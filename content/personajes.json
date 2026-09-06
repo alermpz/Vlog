@@ -1,39 +1,11 @@
 {
   "items": [
     {
-      "nombre": "Naoya Zenin",
-      "serie": "Jujutsu Kaisen",
-      "descripcion": "Me gustan sus peleas, mi favorita es contra chozo, la de maki tan bien es brutal, no me representa para nada pero esta cool.",
-      "imagen": "/assets/Naoya Zenin.jpg",
+      "nombre": "Emilia",
+      "serie": "ReZero",
+      "descripcion": "Mi waifu",
+      "imagen": "/assets/pasted-image-1788656618170.png",
       "destacado": false
-    },
-    {
-      "nombre": "Suguru Geto",
-      "serie": "Jujutsu Kaisen",
-      "descripcion": "Este bro es bien depresivo, me representa.",
-      "imagen": "/assets/Suguru Geto.jpg",
-      "destacado": false
-    },
-    {
-      "nombre": "Mob",
-      "serie": "Mob pyschoo x 100",
-      "descripcion": "Este bro representa lo que quiero ser, mejorar constantemente, cambio mi vida",
-      "imagen": "/assets/Mob.jpg",
-      "destacado": false
-    },
-    {
-      "nombre": "Yutta",
-      "serie": "Jujutsu Kaisen",
-      "descripcion": "Simplemete AURAAA",
-      "imagen": "/assets/Yuta Okkotsu.jpg",
-      "destacado": false
-    },
-    {
-      "nombre": "Kyomoto",
-      "serie": "Look Back",
-      "descripcion": "Uno de mis personajes favoritos en mi vida, me da mucha tranquilidad como es ella, como dibuja, como ama lo que le apasiona, espero algún día ser un poco como ella.",
-      "imagen": "/assets/pasted-image-1787009810418.png",
-      "destacado": true
     }
   ]
 }
