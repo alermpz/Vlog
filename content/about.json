@@ -1,8 +1,17 @@
 {
-  "nombre": "AleRam",
-  "carrera": "Ing. Gestión Empresarial",
-  "libro": "El Libro del Desasosiego",
+  "nombre": "Nestor",
+  "carrera": "Naval",
+  "juego": "Wildrift",
+  "estudio_juego": "riotgames",
+  "escuchando": "Nskq",
+  "descripcion": "Soy Néstor y decidí crear este espacio para compartir un poco de quién soy, lo que\nhago y las cosas que forman parte de mi vida, aquí voy a estar compartiendo mis\nproyectos, experiencias, nuevos retos, momentos importantes y, en general, un poco\ndel camino que estoy construyendo. Actualmente estoy viviendo una etapa\ncompletamente nueva para mí, con nuevos objetivos, responsabilidades y muchas\ncosas por aprender.",
+  "likes": [
+    "gym",
+    "correr"
+  ],
+  "link_spotify": "",
+  "link_tiktok": "",
+  "link_instagram": "",
   "autor_libro": "Fernando Pessoa",
-  "escuchando": "Cigarettes After Sex",
-  "descripcion": "hola. soy Alejandro, la mayoría me conoce como **AleRam**. este es mi rincón personal del internet — un espacio donde guardo lo que me gusta, lo que leo, lo que escucho y lo que pienso.\nMe gusta el lol, el Minecraft, juego clash royale, me gusta jugar wildrift(lol), programo por diversión. me gusta caminar, el gimnasio, leer y conversar."
+  "libro": "El Libro del Desasosiego"
 }
